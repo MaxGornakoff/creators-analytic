@@ -3,7 +3,7 @@ import WebApp from '@twa-dev/sdk';
 import logo from './assets/logo2.png';
 import './App.css';
 
-const BACKEND_URL = 'https://analytics-tgminiapp-os-backend.onrender.com';
+const BACKEND_URL = 'https://dev.m101.fr';
 
 function App() {
   const [forms, setForms] = useState([{ id: 1, url: '', category: '', urlError: '', categoryError: '' }]);
